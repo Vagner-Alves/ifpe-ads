@@ -21,9 +21,12 @@ function randomHexColor(){
 function clickRandomColorButton(){
   let hexColor = randomHexColor() 
   // minha solução
+  const display = document.getElementById('quoteDisplay');
+  
   const button = document.getElementById('btn');
   button.addEventListener('click', function onClick(event){
     document.body.style.backgroundColor = hexColor;
+    display.innerHTML = quotes[getRandomQuote()];
     
   });
 }
