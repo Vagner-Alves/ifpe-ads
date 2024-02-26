@@ -1,0 +1,28 @@
+Algoritmo de esteganografia em python
+
+ROTEIRO DE FALA
+
+OI priscila, vou te explicar como esse Algoritmo funciona. esteganografia (em grego significa escrita escondida) é o estudo das tecnicas 
+para ocultar uma mensagem dentro de outra, no nosso caso, vamos esconder uma imagem dentro de outra.
+O Algoritmo é dividido em 2 funções , uma se chama esconder e outra desfazer. A primeira faz o processo de esteganografia e a segunda desfaz o processo pra poder vermos a imagem escondida.
+
+
+Primeiro, vamos importar 3 bibliotecas para fazer o Algoritmo funcionar, opencv (cv2), numpy e random
+
+
+A primeira função desfazer não recebe argumentos e tem 4 laços de repetição; 
+1 laço for serve pra fazer uma varredura nas pastas e econtrar imagens, dentro dele temos há duas variaveis
+cada uma usa o método .imread da bibliotecas cv2 , que vai receber uma string como argumento ( caminho do arquivo de imagem) e transforma a imagem em um array númerico para pode ser manipulado.
+
+em seguida, vamos criar mais 3 laços de repetição for, um dentro do outro, um para a largura da imagem l , outro para altura A e o último para uma variavél C que vai de 0 a 2.
+
+ou seja for L, A e C
+
+dentro do último laço temos 3 variaveis, v1, v2 e v3, as primerias duas recebem a função format que tem como argumento a imagem guardada na variavél img1 com a largura, altura e c em colchetes , representadas por l, a e c
+já v3 vai ser a soma de v1 e v2 na posição :4
+
+img vai ser receber v3 sendo convertida para números inteiros pela função int
+
+em seguida usamos cv2.imwrite para salvar o arquivo na pasta desejada.
+
+pronto, o processo terminou. já temos a imagem escondida

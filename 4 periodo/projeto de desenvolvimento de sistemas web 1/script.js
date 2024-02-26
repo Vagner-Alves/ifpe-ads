@@ -23,6 +23,7 @@ function clickRandomColorButton(){
   // minha solução
   const display = document.getElementById('quoteDisplay');
   const button = document.getElementById('btn');
+  
   button.addEventListener('click', function onClick(event){
     document.body.style.backgroundColor = hexColor;
     display.innerText = quotes[getRandomQuote()];
