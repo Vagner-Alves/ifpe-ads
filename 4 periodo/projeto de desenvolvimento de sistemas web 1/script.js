@@ -17,19 +17,19 @@ function randomHexColor(){
   return hexColor;
 }
 
-const button = document.getElementById('btn');
-button.addEventListener('click', function onClick(event){
-  document.body.style.backgroundColor = randomHexColor();
-});
 
 function clickRandomColorButton(){
   let hexColor = randomHexColor() 
   // minha solução
+  const button = document.getElementById('btn');
+  button.addEventListener('click', function onClick(event){
+    document.body.style.backgroundColor = hexColor;
+    
+  });
 }
 
 function getRandomQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    //...
     return randomIndex;
 }
 
