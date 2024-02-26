@@ -1,2 +1,5 @@
 # ifpe-ads
-repositório dedicado a guardar os materiais , planilhas, exercícios, código e projetos desenvolvidos durante o curso análise e desenvolvimento de sistemas no IFPE
+repositório dedicado a guardas materiais *criados por mim* para resolver exércicios, desafios de código
+e outras atividades durante o curso de análise e desenvolvimento de sistemas no IFPE.
+
+
