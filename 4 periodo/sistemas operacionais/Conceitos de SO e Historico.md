@@ -4,3 +4,4 @@
     *  Um ou mais Processadores (Cores)
     * Memória Principal
     * Discos, Impressoras, Teclado, Monitor, Interfaces de Redes e outros Dispositivos de E/S ( entrada e saída)
+Programas precisam saber lidar com todos esses recursos!
