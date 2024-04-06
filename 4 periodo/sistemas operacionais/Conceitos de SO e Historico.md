@@ -12,3 +12,6 @@ Programas precisam saber lidar com todos esses recursos!
 Uma aplicação sem SO, terá que gastar bastante tempo para gerenciar recursos ( discos, teclado etc) e outros detalhes
 do hardware, tendo que escrever mais código para fazer isso, isso aumenta a dificuldade e o tempo necessário para
 desenvolver uma aplicação.
+
+## Definição de SO
+Um SO é um Programa, ou conjunto de Programas, interrelacionados cuja finalidade é agir como:
