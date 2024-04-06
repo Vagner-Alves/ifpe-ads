@@ -15,3 +15,13 @@ desenvolver uma aplicação.
 
 ## Definição de SO
 Um SO é um Programa, ou conjunto de Programas, interrelacionados cuja finalidade é agir como:
+   
+   1. Intermediário ( ou interface ) entre o usuário e o hardware
+   2. Gerenciador de Recursos 
+
+O SO tem objetivos contraditórios!
+    
+    1. Conveniencia
+    2. Eficiencia
+    3. Facilidade de Evolução
+Nesses casos, a melhor escolha sempre irá depender de alguma outra!
